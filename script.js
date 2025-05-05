@@ -39,12 +39,12 @@ $(function () {
     $(document).ready(function () {
         $("#contact-us").click(function () {
             $(".contact-us-form").show(800);
+            $(".man-sitting-div").fadeTo(1000, 0.3);
         });
 
         $(".cross").click(function() {
             $(".contact-us-form").hide(800);
+            $(".man-sitting-div").fadeTo(1000, 1);
         })
     });
 })
-
-
