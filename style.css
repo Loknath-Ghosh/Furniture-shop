@@ -518,6 +518,41 @@ $desktop : 1200px; */
     margin-top: 0.5rem;
   } */
 
+    .contact-us-form {
+    top: 3rem;
+  }
+
+  .cross {
+    top: 0.8rem;
+    right: 0.8rem;
+    width: 2%;
+  }
+
+  .contact-us-form h1 {
+    margin-bottom: 1rem;
+  }
+
+  #name {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.2rem;
+  }
+
+  #email {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.2rem;
+  }
+
+  #mobile-no {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.2rem;
+  }
+
+  #submit-button {
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
   .footer-icon .smedia-icons {
     width: 4vw;
   }
