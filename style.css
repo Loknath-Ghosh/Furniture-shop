@@ -520,7 +520,7 @@ $desktop : 1200px; */
 
   .contact-us-form {
     width: 70%;
-    height: 80%;
+    height: 50%;
     top: 3rem;
     border-radius: 7px;
     text-align: center;
@@ -542,7 +542,7 @@ $desktop : 1200px; */
     width: 100%;
     padding: 0.9rem 0.4rem;
     border-radius: 5px;
-    margin-left: 2.5%;
+    margin-left: 2.2%;
     margin-bottom: 1rem;
   }
 
@@ -550,7 +550,7 @@ $desktop : 1200px; */
     width: 100%;
     padding: 0.9rem 0.4rem;
     border-radius: 5px;
-    margin-left: 2.5%;
+    margin-left: 2.2%;
     margin-bottom: 1rem;
   }
 
@@ -558,14 +558,14 @@ $desktop : 1200px; */
     width: 100%;
     padding: 0.9rem 0.4rem;
     border-radius: 5px;
-    margin-left: 2.5%;
+    margin-left: 2.2%;
     margin-bottom: 1rem;
   }
 
   #submit-button {
     font-size: 0.6rem;
     font-weight: 600;
-    width: 100%;
+    width: 60%;
     margin-bottom: 1rem;
   }
 
