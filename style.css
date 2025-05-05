@@ -322,10 +322,6 @@ h3 {
   border-radius: 1rem;
 }
 
-.contact-us-form form {
-  text-align: center;
-}
-
 .cross {
   position: absolute;
   top: 1rem;
@@ -528,6 +524,7 @@ $desktop : 1200px; */
     top: 3rem;
     border-radius: 7px;
     text-align: center;
+    align-items: center;
   }
 
   .cross {
