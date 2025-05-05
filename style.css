@@ -216,7 +216,8 @@ h3 {
 
 
 .top-foot {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   padding: 4rem 9rem;
   color: #312f2f;
 }
@@ -252,7 +253,7 @@ h3 {
   margin-top: 10px;
 }
 
-.subscribe {
+/* .subscribe {
   position: absolute;
   text-align: center;
   align-items: center;
@@ -280,11 +281,11 @@ h3 {
   margin-right: 4rem;
   margin-bottom: -0.7rem;
   margin-top: 0.5rem;
-}
+} 
 
 .footer-icon {
   margin-left: 2.5rem;
-}
+} */
 
 .footer-icon ul {
   display: inline-flex;
@@ -308,14 +309,17 @@ h3 {
 
 .contact-us-form {
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: 100vh;
   top: 6rem;
+  left: 50%;
+  transform: translate(-50%, 0);
   box-shadow: 0 4px 4px #666;
   padding: 5rem 3rem 4rem;
-  background-color: rgba(185, 149, 104, 0.961);
+  background-image: linear-gradient(to bottom, rgb(173, 121, 64), rgb(69, 63, 63));
   display: none;
   text-align: center;
+  border-radius: 1rem;
 }
 
 .cross {
@@ -335,14 +339,14 @@ h3 {
 }
 
 .contact-us-form h1 {
-  color: rgb(39, 15, 1);
+  color: rgb(0, 0, 0);
   margin-bottom: 2rem;
 }
 
 #name {
   display: flex;
-  width: 50%;
-  transform: translate(17%, 0);
+  width: 70%;
+  left: 50%;
   box-shadow: 0 5px 5px #ffe8c2;
   color: white;
   padding: 0.9rem 0.4rem;
@@ -350,14 +354,14 @@ h3 {
   margin-left: 16%;
   margin-bottom: 2rem;
   border-width: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgb(230, 212, 151), rgb(47, 45, 45));
   border-bottom-width: 0px;
 }
 
 #email {
   display: flex;
-  width: 50%;
-  transform: translate(17%, 0);
+  width: 70%;
+  left: 50%;
   margin-bottom: 2rem;
   box-shadow: 0 5px 5px #ffe8c2;
   color: white;
@@ -366,14 +370,14 @@ h3 {
   margin-left: 16%;
   margin-bottom: 2rem;
   border-width: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgb(230, 212, 151), rgb(47, 45, 45));
   border-bottom-width: 0px;
 }
 
 #mobile-no {
   display: flex;
-  width: 50%;
-  transform: translate(17%, 0);
+  width: 70%;
+  left: 50%;
   margin-bottom: 2rem;
   box-shadow: 0 5px 5px #ffe8c2;
   color: white;
@@ -382,7 +386,7 @@ h3 {
   margin-left: 16%;
   margin-bottom: 2rem;
   border-width: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgb(230, 212, 151), rgb(47, 45, 45));
   border-bottom-width: 0px;
 }
 
@@ -391,13 +395,13 @@ h3 {
   color: white;
   padding: 1rem 0.8rem;
   border-radius: 10px;
-  width: 10%;
+  width: 30%;
   font-size: 1.5vw;
   font-weight: 700;
   cursor: pointer;
   margin-bottom: 2rem;
   border-width: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(to bottom right, rgb(170, 145, 55), rgb(0, 0, 0));
   border-bottom-width: 0px;
 }
 
@@ -481,32 +485,21 @@ $desktop : 1200px; */
   }
 
   .top-foot {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     padding: 4rem 3rem;
   }
 
-  .collections a {
-    margin-right: 4rem;
+  .company {
+    margin-top: 2rem;
   }
 
-  .company a {
-    margin-right: 4rem;
-  }
-
-  .useful-links a {
-    margin-right: 4rem;
+  .useful-links {
+    margin-top: 2rem;
   }
 
   .subscribe {
-    display: inline-grid;
-    grid-template-columns: 10px 10px 10px 10px;
-    grid-template-rows: 100px 200px;
-    text-align: center;
-    left: 5rem;
-  }
-
-  #join-our-main-para {
-    font-size: 1.2rem;
-    margin-right: -1rem;
+    margin-top: 2rem;
   }
 
   /* #btn-subscribe {
