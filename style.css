@@ -530,8 +530,8 @@ $desktop : 1200px; */
   } */
 
   .contact-us-form {
-    width: 70%;
-    height: 80%;
+    width: 90%;
+    height: 70%;
     top: 3rem;
     border-radius: 7px;
     text-align: center;
@@ -549,27 +549,27 @@ $desktop : 1200px; */
   }
 
   #name {
-    width: 70%;
+    width: 80%;
     left: 50%;
-    padding: 0.9rem 0.4rem;
+    padding: 0.6rem 0.4rem;
     border-radius: 5px;
     margin-left: 1%;
     margin-bottom: 1rem;
   }
 
   #email {
-    width: 70%;
+    width: 80%;
     left: 50%;
-    padding: 0.9rem 0.4rem;
+    padding: 0.6rem 0.4rem;
     border-radius: 5px;
     margin-left: 1%;
     margin-bottom: 1rem;
   }
 
   #mobile-no {
-    width: 70%;
+    width: 80%;
     left: 50%;
-    padding: 0.9rem 0.4rem;
+    padding: 0.6rem 0.4rem;
     border-radius: 5px;
     margin-left: 1%;
     margin-bottom: 1rem;
