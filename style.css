@@ -322,6 +322,10 @@ h3 {
   border-radius: 1rem;
 }
 
+.contact-us-form form {
+  text-align: center;
+}
+
 .cross {
   position: absolute;
   top: 1rem;
