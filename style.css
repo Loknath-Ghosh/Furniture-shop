@@ -518,14 +518,18 @@ $desktop : 1200px; */
     margin-top: 0.5rem;
   } */
 
-    .contact-us-form {
+  .contact-us-form {
+    width: 70%;
+    height: 80%;
     top: 3rem;
+    border-radius: 7px;
   }
 
   .cross {
     top: 0.8rem;
     right: 0.8rem;
     width: 2%;
+    width: 10px;
   }
 
   .contact-us-form h1 {
@@ -533,23 +537,36 @@ $desktop : 1200px; */
   }
 
   #name {
+    width: 8.5rem;
+    left: 50%;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+    margin-left: -2rem;
     margin-bottom: 1rem;
-    padding: 0.5rem 0.2rem;
   }
 
   #email {
+    width: 8.5rem;
+    left: 50%;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+    margin-left: -2rem;
     margin-bottom: 1rem;
-    padding: 0.5rem 0.2rem;
   }
 
   #mobile-no {
+    width: 8.5rem;
+    left: 50%;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+    margin-left: -2rem;
     margin-bottom: 1rem;
-    padding: 0.5rem 0.2rem;
   }
 
   #submit-button {
-    font-size: 1.2vw;
+    font-size: 0.6rem;
     font-weight: 600;
+    width: 100%;
     margin-bottom: 1rem;
   }
 
