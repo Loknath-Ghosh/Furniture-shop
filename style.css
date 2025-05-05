@@ -535,36 +535,33 @@ $desktop : 1200px; */
   }
 
   .contact-us-form h1 {
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
   }
 
   #name {
-    width: 8.5rem;
+    width: 70%;
     left: 50%;
-    transform: translate(-50%, 0);
-    padding: 0.3rem 0.4rem;
+    padding: 0.9rem 0.4rem;
     border-radius: 5px;
-    margin-left: -2rem;
+    margin-left: 1%;
     margin-bottom: 1rem;
   }
 
   #email {
-    width: 8.5rem;
+    width: 70%;
     left: 50%;
-    transform: translate(-50%, 0);
-    padding: 0.3rem 0.4rem;
+    padding: 0.9rem 0.4rem;
     border-radius: 5px;
-    margin-left: -2rem;
+    margin-left: 1%;
     margin-bottom: 1rem;
   }
 
   #mobile-no {
-    width: 8.5rem;
+    width: 70%;
     left: 50%;
-    transform: translate(-50%, 0);
-    padding: 0.3rem 0.4rem;
+    padding: 0.9rem 0.4rem;
     border-radius: 5px;
-    margin-left: -2rem;
+    margin-left: 1%;
     margin-bottom: 1rem;
   }
 
