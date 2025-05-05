@@ -523,6 +523,7 @@ $desktop : 1200px; */
     height: 80%;
     top: 3rem;
     border-radius: 7px;
+    text-align: center;
   }
 
   .cross {
