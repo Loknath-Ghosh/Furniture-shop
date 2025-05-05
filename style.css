@@ -539,7 +539,7 @@ $desktop : 1200px; */
   }
 
   #name {
-    width: 70%;
+    width: 100%;
     padding: 0.9rem 0.4rem;
     border-radius: 5px;
     margin-left: 2.5%;
@@ -547,7 +547,7 @@ $desktop : 1200px; */
   }
 
   #email {
-    width: 70%;
+    width: 100%;
     padding: 0.9rem 0.4rem;
     border-radius: 5px;
     margin-left: 2.5%;
@@ -555,7 +555,7 @@ $desktop : 1200px; */
   }
 
   #mobile-no {
-    width: 70%;
+    width: 100%;
     padding: 0.9rem 0.4rem;
     border-radius: 5px;
     margin-left: 2.5%;
