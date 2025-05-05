@@ -421,16 +421,16 @@ $desktop : 1200px; */
   }
 
   #decor {
-    font-size: 20px;
+    font-size: 12px;
     margin-left: 1.2rem;
   }
 
   #classy {
-    font-size: 40px;
+    font-size: 24px;
   }
 
   #city {
-    font-size: 20px;
+    font-size: 12px;
     margin-left: -0.2rem;
   }
 
@@ -462,7 +462,7 @@ $desktop : 1200px; */
 
   .imgs-link {
     width: 30vw;
-    height: 20vh;
+    height: 15vh;
   }
 
   .textImg {
@@ -520,5 +520,9 @@ $desktop : 1200px; */
 
   .footer-icon .smedia-icons {
     width: 4vw;
+  }
+
+  .copyright {
+    font-size: 0.3rem;
   }
 }
